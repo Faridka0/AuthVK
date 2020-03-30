@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6111F7AF242CD6E90017E124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111F7AE242CD6E90017E124 /* AppDelegate.swift */; };
+		6111F7B6242CD6E90017E124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6111F7B4242CD6E90017E124 /* Main.storyboard */; };
+		6111F7B8242CD6EC0017E124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6111F7B7242CD6EC0017E124 /* Assets.xcassets */; };
+		6111F7BB242CD6EC0017E124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6111F7B9242CD6EC0017E124 /* LaunchScreen.storyboard */; };
+		6111F7C9242CD9560017E124 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111F7C8242CD9560017E124 /* AuthViewController.swift */; };
+		611F3E0B242CDCCD00FCF1CA /* VKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F3E0A242CDCCD00FCF1CA /* VKService.swift */; };
+		611F3E0F242CF54100FCF1CA /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F3E0E242CF54100FCF1CA /* MainTableViewController.swift */; };
+		611F3E12242CFEAA00FCF1CA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F3E11242CFEAA00FCF1CA /* User.swift */; };
+		611F3E14242D04A600FCF1CA /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F3E13242D04A600FCF1CA /* Friends.swift */; };
+		611F3E16242D057400FCF1CA /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F3E15242D057400FCF1CA /* JSONParser.swift */; };
+		61CB3A10242E130A00F094CB /* SwitcherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CB3A0F242E130A00F094CB /* SwitcherVC.swift */; };
+		8BB96F4CD0B461F8EDAE2CD6 /* Pods_AuthVK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06082C4E4B1B04101425265E /* Pods_AuthVK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06082C4E4B1B04101425265E /* Pods_AuthVK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthVK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A8F1719C3072D31099AEDE /* Pods-AuthVK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthVK.release.xcconfig"; path = "Target Support Files/Pods-AuthVK/Pods-AuthVK.release.xcconfig"; sourceTree = "<group>"; };
+		6111F7AB242CD6E90017E124 /* AuthVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6111F7AE242CD6E90017E124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6111F7B5242CD6E90017E124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6111F7B7242CD6EC0017E124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6111F7BA242CD6EC0017E124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6111F7BC242CD6EC0017E124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6111F7C8242CD9560017E124 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		611F3E0A242CDCCD00FCF1CA /* VKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKService.swift; sourceTree = "<group>"; };
+		611F3E0E242CF54100FCF1CA /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		611F3E11242CFEAA00FCF1CA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		611F3E13242D04A600FCF1CA /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		611F3E15242D057400FCF1CA /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		61CB3A0F242E130A00F094CB /* SwitcherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherVC.swift; sourceTree = "<group>"; };
+		6334E0636F4C21C351780E2C /* Pods-AuthVK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthVK.debug.xcconfig"; path = "Target Support Files/Pods-AuthVK/Pods-AuthVK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6111F7A8242CD6E90017E124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB96F4CD0B461F8EDAE2CD6 /* Pods_AuthVK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DD6DFCDB385B4A3C06C860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06082C4E4B1B04101425265E /* Pods_AuthVK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6111F7A2242CD6E90017E124 = {
+			isa = PBXGroup;
+			children = (
+				6111F7AD242CD6E90017E124 /* AuthVK */,
+				6111F7AC242CD6E90017E124 /* Products */,
+				F75AE9D6BD2786D78C325BFF /* Pods */,
+				02DD6DFCDB385B4A3C06C860 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6111F7AC242CD6E90017E124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6111F7AB242CD6E90017E124 /* AuthVK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6111F7AD242CD6E90017E124 /* AuthVK */ = {
+			isa = PBXGroup;
+			children = (
+				6111F7C4242CD70A0017E124 /* Services */,
+				611F3E10242CFE9E00FCF1CA /* Models */,
+				6111F7C3242CD7030017E124 /* Views */,
+				6111F7C5242CD70E0017E124 /* Controllers */,
+				6111F7C2242CD6FD0017E124 /* App */,
+				6111F7B7242CD6EC0017E124 /* Assets.xcassets */,
+			);
+			path = AuthVK;
+			sourceTree = "<group>";
+		};
+		6111F7C2242CD6FD0017E124 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6111F7C7242CD7250017E124 /* Other */,
+				6111F7C6242CD71A0017E124 /* Configs */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6111F7C3242CD7030017E124 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6111F7B4242CD6E90017E124 /* Main.storyboard */,
+				6111F7B9242CD6EC0017E124 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6111F7C4242CD70A0017E124 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				611F3E0A242CDCCD00FCF1CA /* VKService.swift */,
+				611F3E15242D057400FCF1CA /* JSONParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6111F7C5242CD70E0017E124 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6111F7C8242CD9560017E124 /* AuthViewController.swift */,
+				611F3E0E242CF54100FCF1CA /* MainTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6111F7C6242CD71A0017E124 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				6111F7BC242CD6EC0017E124 /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		6111F7C7242CD7250017E124 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6111F7AE242CD6E90017E124 /* AppDelegate.swift */,
+				61CB3A0F242E130A00F094CB /* SwitcherVC.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		611F3E10242CFE9E00FCF1CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				611F3E11242CFEAA00FCF1CA /* User.swift */,
+				611F3E13242D04A600FCF1CA /* Friends.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F75AE9D6BD2786D78C325BFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6334E0636F4C21C351780E2C /* Pods-AuthVK.debug.xcconfig */,
+				21A8F1719C3072D31099AEDE /* Pods-AuthVK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6111F7AA242CD6E90017E124 /* AuthVK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6111F7BF242CD6EC0017E124 /* Build configuration list for PBXNativeTarget "AuthVK" */;
+			buildPhases = (
+				DA97729AA826B71050B026D7 /* [CP] Check Pods Manifest.lock */,
+				6111F7A7242CD6E90017E124 /* Sources */,
+				6111F7A8242CD6E90017E124 /* Frameworks */,
+				6111F7A9242CD6E90017E124 /* Resources */,
+				BE9D645EB9005637D6DB12C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthVK;
+			productName = AuthVK;
+			productReference = 6111F7AB242CD6E90017E124 /* AuthVK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6111F7A3242CD6E90017E124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Фарид Гулиев";
+				TargetAttributes = {
+					6111F7AA242CD6E90017E124 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6111F7A6242CD6E90017E124 /* Build configuration list for PBXProject "AuthVK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6111F7A2242CD6E90017E124;
+			productRefGroup = 6111F7AC242CD6E90017E124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6111F7AA242CD6E90017E124 /* AuthVK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6111F7A9242CD6E90017E124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6111F7BB242CD6EC0017E124 /* LaunchScreen.storyboard in Resources */,
+				6111F7B8242CD6EC0017E124 /* Assets.xcassets in Resources */,
+				6111F7B6242CD6E90017E124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE9D645EB9005637D6DB12C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthVK/Pods-AuthVK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthVK/Pods-AuthVK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthVK/Pods-AuthVK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA97729AA826B71050B026D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthVK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6111F7A7242CD6E90017E124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6111F7C9242CD9560017E124 /* AuthViewController.swift in Sources */,
+				611F3E14242D04A600FCF1CA /* Friends.swift in Sources */,
+				6111F7AF242CD6E90017E124 /* AppDelegate.swift in Sources */,
+				611F3E0B242CDCCD00FCF1CA /* VKService.swift in Sources */,
+				611F3E12242CFEAA00FCF1CA /* User.swift in Sources */,
+				61CB3A10242E130A00F094CB /* SwitcherVC.swift in Sources */,
+				611F3E0F242CF54100FCF1CA /* MainTableViewController.swift in Sources */,
+				611F3E16242D057400FCF1CA /* JSONParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6111F7B4242CD6E90017E124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6111F7B5242CD6E90017E124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6111F7B9242CD6EC0017E124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6111F7BA242CD6EC0017E124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6111F7BD242CD6EC0017E124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6111F7BE242CD6EC0017E124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6111F7C0242CD6EC0017E124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6334E0636F4C21C351780E2C /* Pods-AuthVK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CGJVQCU8H;
+				INFOPLIST_FILE = AuthVK/App/Configs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulfar.AuthVK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6111F7C1242CD6EC0017E124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A8F1719C3072D31099AEDE /* Pods-AuthVK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CGJVQCU8H;
+				INFOPLIST_FILE = AuthVK/App/Configs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulfar.AuthVK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6111F7A6242CD6E90017E124 /* Build configuration list for PBXProject "AuthVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6111F7BD242CD6EC0017E124 /* Debug */,
+				6111F7BE242CD6EC0017E124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6111F7BF242CD6EC0017E124 /* Build configuration list for PBXNativeTarget "AuthVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6111F7C0242CD6EC0017E124 /* Debug */,
+				6111F7C1242CD6EC0017E124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6111F7A3242CD6E90017E124 /* Project object */;
+}
